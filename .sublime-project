@@ -1,0 +1,17 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": "./",
+      "folder_exclude_patterns": ["node_modules", "bower_components", ".temp"],
+      "file_exclude_patterns": ["*.sublime-workspace", ".gitkeep"]
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "modulePrefix": "app",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/<username>/<repository>.git"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "es6-module-transpiler-brunch": "git://github.com/jas/es6-module-transpiler-brunch.git#amd-globals",
+    "javascript-brunch": "~1.7.0",
+    "uglify-js-brunch": "~1.7.3",
+    "ember-handlebars-brunch": "git://github.com/jas/ember-handlebars-brunch.git#custom-wrapper",
+    "stylus-brunch": "~1.7.0",
+    "auto-reload-brunch": "~1.7.1",
+    "jshint-brunch": "~1.7.0"
+  }
+}

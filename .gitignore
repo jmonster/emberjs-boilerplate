@@ -1,0 +1,22 @@
+# Compiled output
+/public
+sprites.styl
+
+# Node.js
+/node_modules
+logs
+pids
+
+# Bower
+/bower_components
+
+# Sublime Text
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc.
+*.log
+*.orig

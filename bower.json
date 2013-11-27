@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "ember": "~1.2.0",
+    "handlebars": "~1.1.2",
+    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#master",
+    "module-loader": "https://raw.github.com/stefanpenner/ember-app-kit/master/vendor/loader.js"
+  },
+  "overrides": {
+    "ember": {
+      "main": ["ember.js", "ember.prod.js"]
+    }
+  }
+}
