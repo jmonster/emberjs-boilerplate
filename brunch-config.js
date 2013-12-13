@@ -51,6 +51,11 @@ var vendorFiles = {
 //
 // Documentation: https://github.com/brunch/brunch/blob/master/docs/config.md
 var brunchConfig = {
+  server: {
+    path: 'server/app.js',
+    port: 3333
+  },
+
   files: {
     // Handlebars Templates
     //
