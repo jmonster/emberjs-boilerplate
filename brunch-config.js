@@ -21,6 +21,8 @@ var isProduction = process.argv.indexOf('--production') > 0,
 var vendorFiles = {
   javascripts: {
     development: [
+      'app/config/environment.js',
+      'app/config/environment.dev.js',
       'bower_components/module-loader/index.js',
       'bower_components/jquery/jquery.js',
       'bower_components/handlebars/handlebars.js',
@@ -29,6 +31,8 @@ var vendorFiles = {
       'bower_components/ember-resolver/dist/ember-resolver.js'
     ],
     production: [
+      'app/config/environment.js',
+      'app/config/environment.prod.js',
       'bower_components/module-loader/index.js',
       'bower_components/jquery/jquery.js',
       'bower_components/handlebars/handlebars.js',
@@ -80,7 +84,7 @@ var brunchConfig = {
     // https://github.com/brunch/javascript-brunch
     javascripts: {
       joinTo: {
-        'js/app.js': /^app/,
+        'js/app.js': /^app(?!\/(config))/,
         'js/vendor.js': resolveVendorFiles('javascripts')
       },
       order: {
@@ -128,7 +132,7 @@ var brunchConfig = {
   //
   // http://square.github.io/es6-module-transpiler/
   es6ModuleTranspiler: {
-    match: /^app/,
+    match: /^app(?!\/(config))/,
     type: 'amd'
   },
 
