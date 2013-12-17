@@ -25,6 +25,7 @@ var vendorFiles = {
       'bower_components/jquery/jquery.js',
       'bower_components/handlebars/handlebars.js',
       'bower_components/ember/ember.js',
+      // 'bower_components/ember-data/ember-data.js',
       'bower_components/ember-resolver/dist/ember-resolver.js'
     ],
     production: [
@@ -32,6 +33,7 @@ var vendorFiles = {
       'bower_components/jquery/jquery.js',
       'bower_components/handlebars/handlebars.js',
       'bower_components/ember/ember.prod.js',
+      // 'bower_components/ember-data/ember-data.prod.js',
       'bower_components/ember-resolver/dist/ember-resolver.prod.js'
     ]
   },
