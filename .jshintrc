@@ -1,11 +1,9 @@
 {
-  "predef": [
-    "document",
-    "window",
-    "location",
-    "setTimeout"
-  ],
   "globals": {
+    "document": true,
+    "window": true,
+    "location": true,
+    "setTimeout": true,
     "Ember": true,
     "Em": true,
     "$": true,
