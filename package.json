@@ -10,8 +10,8 @@
   "dependencies": {
     "express": "~3.4.4",
     "es6-module-transpiler-brunch": "git://github.com/jas/es6-module-transpiler-brunch.git#amd-globals",
-    "javascript-brunch": "~1.7.0",
-    "uglify-js-brunch": "~1.7.3",
+    "javascript-brunch": "~1.7.1",
+    "uglify-js-brunch": "~1.7.6",
     "ember-handlebars-brunch": "git://github.com/jas/ember-handlebars-brunch.git#custom-wrapper",
     "stylus-spritesmith-brunch": "~0.1.3",
     "auto-reload-brunch": "~1.7.1",
