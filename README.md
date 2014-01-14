@@ -17,21 +17,17 @@ Getting Started
 
 2.  **Install [Node.js and npm](http://nodejs.org)**, which are necessary to install and run Brunch, the task runner, and the Express server used to preview your project in a browser.
 
-3.  **Install Brunch and Bower** globally via npm.
+3.  **Install project dependencies.**
 
-        npm install -g brunch bower
+        npm install
 
-4.  **Install project dependencies.**
-
-        npm install && bower install
-
-5.  **Develop your project.**
+4.  **Develop your project.**
 
 
 Preview Server with Auto-Reload
 -------------------------------
 
-### `brunch watch --server`
+### `npm run start` (alias to *brunch watch --server*)
 
 Brunch watches your project and incrementally rebuilds when source files are changed. A server is also started on port 3333 which auto-reloads when assets are rebuilt.
 
@@ -48,11 +44,11 @@ In development:
 Production
 ----------
 
-### `brunch build --production`
+### `npm run build` (alias to *brunch build --production*)
 
 Brunch builds your project, but does not watch for changes or start a preview server.
 
-A build with development settings can be created by omitting the `--production` flag.
+A build with development settings can be created by omitting calling `brunch` directly and omitting the `--production` flag.
 
 
 
