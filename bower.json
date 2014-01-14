@@ -10,12 +10,14 @@
     "module-loader": "https://raw.github.com/stefanpenner/ember-app-kit/master/vendor/loader.js"
   },
   "resolutions": {
-    "ember": "~1.3.0",
-    "handlebars": "~1.3.0"
+    "ember": "~1.3.0"
   },
   "overrides": {
     "ember": {
-      "main": ["ember.js", "ember.prod.js"]
+      "main": [
+        "ember.js",
+        "ember.prod.js"
+      ]
     }
   }
 }
